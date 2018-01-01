@@ -183,7 +183,7 @@ public class Function {
     
     public static double Length(Vector v) {
         int vx = v.getVx(), vy = v.getVy();
-        return Math.pow(vx, 2) + Math.pow(vy, 2);
+        return Math.sqrt(Math.pow(vx, 2) + Math.pow(vy, 2));
     }
     
     public static void createPanel(JPanel panBtn) {
